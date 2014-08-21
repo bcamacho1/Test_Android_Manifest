@@ -10,20 +10,32 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
     <TextView
-        android:textSize="50sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:text="@string/hello_world"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+       />
+
+    <TextView
+        android:text="@string/Howareyou"
+        android:background="#00FF00"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:text="@string/Howareyou"
+        android:text="How was your weekend?"
+        android:background="#00FF00"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </RelativeLayout>
